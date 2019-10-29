@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { HorizontalScrollIndicatorComponent } from './horizontal-scroll-indicator/horizontal-scroll-indicator.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HorizontalScrollIndicatorComponent
   ],
   imports: [
     BrowserModule
